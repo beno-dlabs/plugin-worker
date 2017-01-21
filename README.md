@@ -3,7 +3,7 @@ WebWorker plugin for [SystemJS](https://github.com/systemjs/systemjs)
 # Usage
 Install the plugin
 
-```jspm install worker=github:casperlamboo/plugin-worker```
+```jspm install worker=github:simoncast/plugin-worker```
 
 Load a worker
 
@@ -15,19 +15,3 @@ import Worker from './worker.js!worker';
 const worker = new Worker();
 worker.postmessage('hello world');
 ```
-
-#Run Example
-
-Install
-
-```npm install```
-
-Go to example
-
-```cd example/```
-
-Start server (for instance `serve`). Or create production bundle
-
-```npm run dist```
-
-dist folder will be located in `example/dist`
